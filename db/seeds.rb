@@ -24,3 +24,8 @@ Ingredient.create(name: "Cranberry juice")
 Ingredient.create(name: "Liquor")
 Ingredient.create(name: "Martini")
 Ingredient.create(name: "Olives")
+
+url = "https://static.pexels.com/photos/27433/pexels-photo-27433.jpg"
+cocktail = Cocktail.new(name: 'Shirley Temple')
+cocktail.save!
+cocktail.photo_url = url
